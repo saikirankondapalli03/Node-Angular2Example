@@ -1,0 +1,31 @@
+<div class="container">
+    <div class="row grid-container">
+        <div class="col-md-10">
+            <div class="table">
+                <table class="table table-bordered">
+                    <thead class="thead-inverse">
+                        <tr>
+                            <th>component</th>
+                            <th>length</th>
+                            <th>data type</th>
+                            <th>delimiter</th>
+                         </tr>
+                    </thead>
+				    <tbody>
+                        <tr *ngFor="let customer of customers.data">
+                            <td>{{ customer.type | capitalize }}</td>
+                            <td>{{ customer.maskLen }}</td>
+                            <td>{{ customer.datatype | capitalize }}</td>
+                            <td>{{ customer.delimiter}}</td>
+                        </tr>
+                        
+                         <tr *ngIf="!customers.data">
+                            <td>&nbsp;</td>
+                            <td colspan="6">No Records Found</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

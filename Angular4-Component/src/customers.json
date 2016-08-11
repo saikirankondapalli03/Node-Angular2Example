@@ -1,0 +1,63 @@
+{
+  "message": {
+    "id": 200,
+    "description": "SUCCESS"
+  },
+  "data": [
+    {
+      "class": "com.macys.mst.d2c.feo.location.cdd.LocationComponent",
+      "datatype": "ALPHANUMERIC",
+      "delimiter": "^",
+      "filter": null,
+      "id": 24035,
+      "maskDefault": null,
+      "maskLen": 1,
+      "type": "BAY12",
+      "userName": "ff-admin"
+    },
+    {
+      "class": "com.macys.mst.d2c.feo.location.cdd.LocationComponent",
+      "datatype": "ALPHA",
+      "delimiter": "^",
+      "filter": null,
+      "id": 24036,
+      "maskDefault": null,
+      "maskLen": 1,
+      "type": "AREA83",
+      "userName": "ff-admin"
+    },
+    {
+      "class": "com.macys.mst.d2c.feo.location.cdd.LocationComponent",
+      "datatype": "ALPHANUMERIC",
+      "delimiter": "-",
+      "filter": null,
+      "id": 22040,
+      "maskDefault": null,
+      "maskLen": 51,
+      "type": "X59CORDDLCOM22ES1211",
+      "userName": "ff-admin"
+    },
+    {
+      "class": "com.macys.mst.d2c.feo.location.cdd.LocationComponent",
+      "datatype": "ALPHANUMERIC",
+      "delimiter": "^",
+      "filter": null,
+      "id": 24037,
+      "maskDefault": null,
+      "maskLen": 12,
+      "type": "ZONE8",
+      "userName": "ff-admin"
+    },
+    {
+      "class": "com.macys.mst.d2c.feo.location.cdd.LocationComponent",
+      "datatype": "ALPHANUMERIC",
+      "delimiter": "^",
+      "filter": null,
+      "id": 24038,
+      "maskDefault": "null",
+      "maskLen": 1,
+      "type": "BAY8",
+      "userName": "B002919"
+    }
+  ]
+}
